@@ -1,0 +1,9 @@
+content:
+  - name: docs
+    label: Documentation 
+    type: collection
+    path: src/content/docs
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string, options: {maxLength: 180}}
+      - { name: body, label: Body, type: rich-text }
