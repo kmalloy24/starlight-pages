@@ -5,5 +5,5 @@ content:
     path: src/content/docs
     fields:
       - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, options: {maxLength: 180}}
+      - { name: description, label: Description, type: string, options: {maxLength: 150}}
       - { name: body, label: Body, type: rich-text }
